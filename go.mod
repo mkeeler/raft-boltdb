@@ -1,4 +1,4 @@
-module github.com/hashicorp/raft-boltdb
+module github.com/hashicorp/raft-boltdb/v3
 
 go 1.16
 

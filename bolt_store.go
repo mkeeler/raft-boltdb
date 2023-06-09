@@ -2,11 +2,8 @@ package raftboltdb
 
 import (
 	"errors"
-	"fmt"
-	"os"
 	"time"
 
-	v1 "github.com/boltdb/bolt"
 	metrics "github.com/hashicorp/go-metrics"
 	"github.com/hashicorp/raft"
 	"go.etcd.io/bbolt"
